@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:page/login.dart';
 import 'package:page/signup.dart';
 
 class Welcome extends StatefulWidget {
@@ -28,7 +29,14 @@ class _WelcomeState extends State<Welcome> {
       ElevatedButton(onPressed:(){
       Navigator.push(context,
       MaterialPageRoute(builder: (context)=> const Signup()));
-    }, child: Text('Sign Up'))
+    }, child: Text('Sign Up')),
+
+              Center(
+                child: ElevatedButton(onPressed:(){
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context)=> const Login()));
+                }, child: Text('Login')),
+              )
 
     ]
 

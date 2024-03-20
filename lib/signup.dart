@@ -86,7 +86,7 @@ class _SignupState extends State<Signup> {
     SizedBox(height: 10,),
     Center(
     child: Row(
-    children: [Text('Already you have an account?',
+    children: [Text('Dont  you have an account?Sign up',
     style: TextStyle(color: Colors.black)),
     TextButton(onPressed: () {
 
