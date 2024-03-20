@@ -25,6 +25,7 @@ class _WelcomeState extends State<Welcome> {
     height: 300,
     width: 300,
     color: Colors.black87,
+      child: Image.network('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cbc.ca%2Fkidsnews%2Fpost%2Fgoogle-turns-25-today-here-are-25-fun-facts-about-the-iconic-search-engine&psig=AOvVaw2vjnA1f9b3LKydoIVhiUN0&ust=1711017242110000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLjik4rSgoUDFQAAAAAdAAAAABAD'),
     ),
       ElevatedButton(onPressed:(){
       Navigator.push(context,
@@ -35,9 +36,7 @@ class _WelcomeState extends State<Welcome> {
                 child: ElevatedButton(onPressed:(){
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context)=> const Login()));
-                }, child: Text('Login')),
-              )
-
+    dart pub global activate flutterfire_cli
     ]
 
     ),
